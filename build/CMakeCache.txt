@@ -297,6 +297,45 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
 
+//Path to a program.
+GITCOMMAND:FILEPATH=/usr/local/bin/git
+
+//Value Computed by CMake
+JUCE_BINARY_DIR:STATIC=/Users/sebastianwilliams/Development/daw/build/JUCE
+
+//Add build targets for the DemoRunner and PIPs
+JUCE_BUILD_EXAMPLES:BOOL=OFF
+
+//Add build targets for the Projucer and other tools
+JUCE_BUILD_EXTRAS:BOOL=OFF
+
+//Whether or not plugins should be installed to the system after
+// building
+JUCE_COPY_PLUGIN_AFTER_BUILD:BOOL=OFF
+
+//Show all module sources in IDE projects
+JUCE_ENABLE_MODULE_SOURCE_GROUPS:BOOL=OFF
+
+//The location, relative to the install prefix, where the JUCE
+// config file will be installed
+JUCE_INSTALL_DESTINATION:STRING=lib/cmake/JUCE-7.0.1
+
+//Value Computed by CMake
+JUCE_IS_TOP_LEVEL:STATIC=OFF
+
+//Only configure the JUCE modules
+JUCE_MODULES_ONLY:BOOL=OFF
+
+//Value Computed by CMake
+JUCE_SOURCE_DIR:STATIC=/Users/sebastianwilliams/Development/daw/JUCE
+
+//The location, relative to the install prefix, where juceaide
+// will be installed
+JUCE_TOOL_INSTALL_DIR:STRING=bin/JUCE-7.0.1
+
+//Path to a program.
+JUCE_XCRUN:FILEPATH=/usr/bin/xcrun
+
 //Command to build the project
 MAKECOMMAND:STRING=/usr/local/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 
@@ -317,6 +356,54 @@ daw_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 daw_SOURCE_DIR:STATIC=/Users/sebastianwilliams/Development/daw
+
+//Path to a library.
+juce_found_AVFoundation:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AVFoundation.framework
+
+//Path to a library.
+juce_found_AVKit:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AVKit.framework
+
+//Path to a library.
+juce_found_Accelerate:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Accelerate.framework
+
+//Path to a library.
+juce_found_AudioToolbox:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AudioToolbox.framework
+
+//Path to a library.
+juce_found_AudioUnit:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AudioUnit.framework
+
+//Path to a library.
+juce_found_Cocoa:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Cocoa.framework
+
+//Path to a library.
+juce_found_CoreAudio:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework
+
+//Path to a library.
+juce_found_CoreAudioKit:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudioKit.framework
+
+//Path to a library.
+juce_found_CoreMIDI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreMIDI.framework
+
+//Path to a library.
+juce_found_CoreMedia:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreMedia.framework
+
+//Path to a library.
+juce_found_DiscRecording:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/DiscRecording.framework
+
+//Path to a library.
+juce_found_Foundation:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Foundation.framework
+
+//Path to a library.
+juce_found_IOKit:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/IOKit.framework
+
+//Path to a library.
+juce_found_OpenGL:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework
+
+//Path to a library.
+juce_found_QuartzCore:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/QuartzCore.framework
+
+//Path to a library.
+juce_found_WebKit:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/WebKit.framework
 
 
 ########################
@@ -385,6 +472,8 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
+CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
@@ -417,7 +506,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -506,6 +595,14 @@ CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
 CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GITCOMMAND
+GITCOMMAND-ADVANCED:INTERNAL=1
+//The path to the folder holding this file and other resources
+JUCE_CMAKE_UTILS_DIR:INTERNAL=/Users/sebastianwilliams/Development/daw/JUCE/extras/Build/CMake
+//The name of the juceaide program
+JUCE_JUCEAIDE_NAME:INTERNAL=juceaide
+//The path to JUCE modules
+JUCE_MODULES_DIR:INTERNAL=/Users/sebastianwilliams/Development/daw/JUCE/modules
 //ADVANCED property for variable: MAKECOMMAND
 MAKECOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_COMMAND

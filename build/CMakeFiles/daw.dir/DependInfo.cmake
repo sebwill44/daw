@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/juce_core.mm" "CMakeFiles/daw.dir/JUCE/modules/juce_core/juce_core.mm.o" "gcc" "CMakeFiles/daw.dir/JUCE/modules/juce_core/juce_core.mm.o.d"
   "/Users/sebastianwilliams/Development/daw/main.cpp" "CMakeFiles/daw.dir/main.cpp.o" "gcc" "CMakeFiles/daw.dir/main.cpp.o.d"
   )
 

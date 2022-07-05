@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/daw.dir/JUCE/modules/juce_core/juce_core.mm.o"
+  "CMakeFiles/daw.dir/JUCE/modules/juce_core/juce_core.mm.o.d"
   "CMakeFiles/daw.dir/main.cpp.o"
   "CMakeFiles/daw.dir/main.cpp.o.d"
   "daw"

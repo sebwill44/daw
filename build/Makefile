@@ -115,6 +115,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sebastianwilliams/Development/daw/build/CMakeFiles /Users/sebastianwilliams/Development/daw/build//CMakeFiles/progress.marks
@@ -143,6 +188,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /Users/sebastianwilliams/Development/daw/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -523,6 +569,43 @@ daw/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/daw.dir/build.make CMakeFiles/daw.dir/build
 .PHONY : daw/fast
 
+#=============================================================================
+# Target rules for targets named juce_lv2_helper
+
+# Build rule for target.
+juce_lv2_helper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 juce_lv2_helper
+.PHONY : juce_lv2_helper
+
+# fast build rule for target.
+juce_lv2_helper/fast:
+	$(MAKE) $(MAKESILENT) -f JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/build.make JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/build
+.PHONY : juce_lv2_helper/fast
+
+JUCE/modules/juce_core/juce_core.o: JUCE/modules/juce_core/juce_core.mm.o
+.PHONY : JUCE/modules/juce_core/juce_core.o
+
+# target to build an object file
+JUCE/modules/juce_core/juce_core.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/daw.dir/build.make CMakeFiles/daw.dir/JUCE/modules/juce_core/juce_core.mm.o
+.PHONY : JUCE/modules/juce_core/juce_core.mm.o
+
+JUCE/modules/juce_core/juce_core.i: JUCE/modules/juce_core/juce_core.mm.i
+.PHONY : JUCE/modules/juce_core/juce_core.i
+
+# target to preprocess a source file
+JUCE/modules/juce_core/juce_core.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/daw.dir/build.make CMakeFiles/daw.dir/JUCE/modules/juce_core/juce_core.mm.i
+.PHONY : JUCE/modules/juce_core/juce_core.mm.i
+
+JUCE/modules/juce_core/juce_core.s: JUCE/modules/juce_core/juce_core.mm.s
+.PHONY : JUCE/modules/juce_core/juce_core.s
+
+# target to generate assembly for a file
+JUCE/modules/juce_core/juce_core.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/daw.dir/build.make CMakeFiles/daw.dir/JUCE/modules/juce_core/juce_core.mm.s
+.PHONY : JUCE/modules/juce_core/juce_core.mm.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -554,6 +637,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
@@ -587,6 +674,10 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... daw"
+	@echo "... juce_lv2_helper"
+	@echo "... JUCE/modules/juce_core/juce_core.o"
+	@echo "... JUCE/modules/juce_core/juce_core.i"
+	@echo "... JUCE/modules/juce_core/juce_core.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -601,6 +692,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /Users/sebastianwilliams/Development/daw/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

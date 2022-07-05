@@ -1,19 +1,24 @@
 CMakeFiles/daw.dir/main.cpp.o: \
   /Users/sebastianwilliams/Development/daw/main.cpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/juce_core.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/TargetConditionals.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityMacros.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityInternal.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/system/juce_StandardHeader.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/algorithm \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/pthread.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ios \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__locale \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__debug \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iosfwd \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mbstate_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__nullptr \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types.h \
@@ -24,9 +29,6 @@ CMakeFiles/daw.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/Availability.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_null.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_size_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mbstate_t.h \
@@ -66,23 +68,37 @@ CMakeFiles/daw.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/runetype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/version \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional_base \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binary_function.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstring \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/strings.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/functional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/search.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/comp.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/iterator_traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/concepts \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/invoke.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_function.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/type_traits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/forward.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/move.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional_base \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/operations.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/reference_wrapper.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/addressof.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdlib \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/stdlib.h \
@@ -142,23 +158,7 @@ CMakeFiles/daw.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/to_underlying.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/compare \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/initializer_list \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/wrap_iter.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/iterator_traits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/concepts \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/readable_traits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/pointer_traits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/algorithm \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bits \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstring \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_errno_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/strings.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/functional \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/search.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/comp.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/bind_front.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
@@ -170,6 +170,7 @@ CMakeFiles/daw.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocator_traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/construct_at.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/pointer_traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/compressed_pair.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/shared_ptr.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocation_guard.h \
@@ -247,6 +248,7 @@ CMakeFiles/daw.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/reverse_access.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/size.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/wrap_iter.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/temporary_buffer.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cassert \
@@ -351,6 +353,16 @@ CMakeFiles/daw.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/transform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique_copy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/array \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/condition_variable \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mutex_base \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/system_error \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__errc \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string_view \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__ranges/enable_view.h \
@@ -361,11 +373,14 @@ CMakeFiles/daw.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/istream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ios \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/mutex \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mutex_base \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/system_error \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__errc \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cerrno \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/locale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/locale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_locale.h \
@@ -379,10 +394,6 @@ CMakeFiles/daw.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_wctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/istream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/bitset \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bit_reference \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/streambuf \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/nl_types.h \
@@ -412,4 +423,154 @@ CMakeFiles/daw.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/numeric \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/sstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/typeindex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__hash_table \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_set \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/system/juce_CompilerSupport.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/system/juce_PlatformDefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/OSAtomic.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/OSAtomicDeprecated.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/stdbool.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/OSSpinLockDeprecated.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/OSAtomicQueue.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/signal.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_Memory.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/maths/juce_MathsFunctions.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_ByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/i386/OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_os_inline.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_Atomic.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_CharacterFunctions.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_CharPointer_UTF8.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_CharPointer_UTF16.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_CharPointer_UTF32.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_CharPointer_ASCII.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_String.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_StringRef.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/logging/juce_Logger.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_LeakedObjectDetector.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_ContainerDeletePolicy.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_HeapBlock.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_MemoryBlock.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_ReferenceCountedObject.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_ScopedPointer.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_OptionalScopedPointer.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_Optional.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_ScopedValueSetter.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_Singleton.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_WeakReference.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_ScopedLock.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_CriticalSection.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/maths/juce_Range.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/maths/juce_NormalisableRange.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/maths/juce_StatisticsAccumulator.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_ElementComparator.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_ArrayAllocationBase.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_ArrayBase.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_Array.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_LinkedListPointer.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_ListenerList.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_OwnedArray.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_ReferenceCountedArray.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_SortedSet.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_SparseSet.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_AbstractFifo.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_SingleThreadedAbstractFifo.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_NewLine.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_StringPool.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_Identifier.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_StringArray.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/system/juce_SystemStats.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_HeavyweightLeakedObjectDetector.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_StringPairArray.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_TextDiff.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_LocalisedStrings.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/text/juce_Base64.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/misc/juce_Functional.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/misc/juce_Result.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/misc/juce_Uuid.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/misc/juce_ConsoleApplication.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_Variant.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_NamedValueSet.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_DynamicObject.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_HashMap.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/time/juce_RelativeTime.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/time/juce_Time.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/streams/juce_InputStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/streams/juce_OutputStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/streams/juce_BufferedInputStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/streams/juce_MemoryInputStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/streams/juce_MemoryOutputStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/streams/juce_SubregionStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/streams/juce_InputSource.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_File.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_DirectoryIterator.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_RangedDirectoryIterator.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_FileInputStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_FileOutputStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_FileSearchPath.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_MemoryMappedFile.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_TemporaryFile.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_FileFilter.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_WildcardFileFilter.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/streams/juce_FileInputSource.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/logging/juce_FileLogger.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/javascript/juce_JSON.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/javascript/juce_Javascript.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/maths/juce_BigInteger.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/maths/juce_Expression.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/maths/juce_Random.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/misc/juce_RuntimePermissions.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/misc/juce_WindowsRegistry.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_ChildProcess.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_DynamicLibrary.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_HighResolutionTimer.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_InterProcessLock.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_Process.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_SpinLock.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_WaitableEvent.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_Thread.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_ThreadLocalValue.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_ThreadPool.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_TimeSliceThread.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_ReadWriteLock.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_ScopedReadLock.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/threads/juce_ScopedWriteLock.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/network/juce_IPAddress.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/network/juce_MACAddress.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/network/juce_NamedPipe.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/network/juce_Socket.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/network/juce_URL.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/network/juce_WebInputStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/streams/juce_URLInputSource.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/time/juce_PerformanceCounter.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/unit_tests/juce_UnitTest.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/xml/juce_XmlDocument.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/xml/juce_XmlElement.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/zip/juce_ZipFile.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/containers/juce_PropertySet.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_SharedResourcePointer.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_AllocationHooks.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/memory/juce_Reservoir.h \
+  /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/files/juce_AndroidDocument.h

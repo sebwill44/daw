@@ -1,7 +1,17 @@
 [
 {
   "directory": "/Users/sebastianwilliams/Development/daw/build",
-  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/daw.dir/main.cpp.o -c /Users/sebastianwilliams/Development/daw/main.cpp",
+  "command": "/usr/bin/clang++ -DDEBUG=1 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_USE_CURL=0 -DJUCE_WEB_BROWSER=0 -D_DEBUG=1 -I/Users/sebastianwilliams/Development/daw/JUCE/modules -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -g -O0 -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override -std=gnu++14 -o CMakeFiles/daw.dir/main.cpp.o -c /Users/sebastianwilliams/Development/daw/main.cpp",
   "file": "/Users/sebastianwilliams/Development/daw/main.cpp"
+},
+{
+  "directory": "/Users/sebastianwilliams/Development/daw/build",
+  "command": "/usr/bin/clang++ -DDEBUG=1 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_USE_CURL=0 -DJUCE_WEB_BROWSER=0 -D_DEBUG=1 -I/Users/sebastianwilliams/Development/daw/JUCE/modules -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -g -O0 -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override -std=gnu++14 -o CMakeFiles/daw.dir/JUCE/modules/juce_core/juce_core.mm.o -c /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/juce_core.mm",
+  "file": "/Users/sebastianwilliams/Development/daw/JUCE/modules/juce_core/juce_core.mm"
+},
+{
+  "directory": "/Users/sebastianwilliams/Development/daw/build/JUCE/modules/juce_audio_plugin_client",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/juce_lv2_helper.dir/LV2/juce_LV2TurtleDumpProgram.cpp.o -c /Users/sebastianwilliams/Development/daw/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2TurtleDumpProgram.cpp",
+  "file": "/Users/sebastianwilliams/Development/daw/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2TurtleDumpProgram.cpp"
 }
 ]

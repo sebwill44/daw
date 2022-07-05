@@ -64,10 +64,11 @@ CMAKE_BINARY_DIR = /Users/sebastianwilliams/Development/daw/build
 
 # The main recursive "all" target.
 all: CMakeFiles/daw.dir/all
+all: JUCE/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: JUCE/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -100,7 +101,86 @@ clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: CMakeFiles/daw.dir/clean
+clean: JUCE/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory JUCE
+
+# Recursive "all" directory target.
+JUCE/all: JUCE/modules/all
+JUCE/all: JUCE/extras/Build/all
+.PHONY : JUCE/all
+
+# Recursive "preinstall" directory target.
+JUCE/preinstall: JUCE/modules/preinstall
+JUCE/preinstall: JUCE/extras/Build/preinstall
+.PHONY : JUCE/preinstall
+
+# Recursive "clean" directory target.
+JUCE/clean: JUCE/modules/clean
+JUCE/clean: JUCE/extras/Build/clean
+.PHONY : JUCE/clean
+
+#=============================================================================
+# Directory level rules for directory JUCE/extras/Build
+
+# Recursive "all" directory target.
+JUCE/extras/Build/all: JUCE/extras/Build/juceaide/all
+.PHONY : JUCE/extras/Build/all
+
+# Recursive "preinstall" directory target.
+JUCE/extras/Build/preinstall: JUCE/extras/Build/juceaide/preinstall
+.PHONY : JUCE/extras/Build/preinstall
+
+# Recursive "clean" directory target.
+JUCE/extras/Build/clean: JUCE/extras/Build/juceaide/clean
+.PHONY : JUCE/extras/Build/clean
+
+#=============================================================================
+# Directory level rules for directory JUCE/extras/Build/juceaide
+
+# Recursive "all" directory target.
+JUCE/extras/Build/juceaide/all:
+.PHONY : JUCE/extras/Build/juceaide/all
+
+# Recursive "preinstall" directory target.
+JUCE/extras/Build/juceaide/preinstall:
+.PHONY : JUCE/extras/Build/juceaide/preinstall
+
+# Recursive "clean" directory target.
+JUCE/extras/Build/juceaide/clean:
+.PHONY : JUCE/extras/Build/juceaide/clean
+
+#=============================================================================
+# Directory level rules for directory JUCE/modules
+
+# Recursive "all" directory target.
+JUCE/modules/all: JUCE/modules/juce_audio_plugin_client/all
+.PHONY : JUCE/modules/all
+
+# Recursive "preinstall" directory target.
+JUCE/modules/preinstall: JUCE/modules/juce_audio_plugin_client/preinstall
+.PHONY : JUCE/modules/preinstall
+
+# Recursive "clean" directory target.
+JUCE/modules/clean: JUCE/modules/juce_audio_plugin_client/clean
+.PHONY : JUCE/modules/clean
+
+#=============================================================================
+# Directory level rules for directory JUCE/modules/juce_audio_plugin_client
+
+# Recursive "all" directory target.
+JUCE/modules/juce_audio_plugin_client/all: JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/all
+.PHONY : JUCE/modules/juce_audio_plugin_client/all
+
+# Recursive "preinstall" directory target.
+JUCE/modules/juce_audio_plugin_client/preinstall:
+.PHONY : JUCE/modules/juce_audio_plugin_client/preinstall
+
+# Recursive "clean" directory target.
+JUCE/modules/juce_audio_plugin_client/clean: JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/clean
+.PHONY : JUCE/modules/juce_audio_plugin_client/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Experimental.dir
@@ -837,12 +917,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/daw.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/daw.dir/build.make CMakeFiles/daw.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/daw.dir/build.make CMakeFiles/daw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sebastianwilliams/Development/daw/build/CMakeFiles --progress-num=1,2 "Built target daw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sebastianwilliams/Development/daw/build/CMakeFiles --progress-num=1,2,3 "Built target daw"
 .PHONY : CMakeFiles/daw.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/daw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sebastianwilliams/Development/daw/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sebastianwilliams/Development/daw/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/daw.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sebastianwilliams/Development/daw/build/CMakeFiles 0
 .PHONY : CMakeFiles/daw.dir/rule
@@ -857,12 +937,39 @@ CMakeFiles/daw.dir/clean:
 .PHONY : CMakeFiles/daw.dir/clean
 
 #=============================================================================
+# Target rules for target JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir
+
+# All Build rule for target.
+JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/all:
+	$(MAKE) $(MAKESILENT) -f JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/build.make JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/depend
+	$(MAKE) $(MAKESILENT) -f JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/build.make JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sebastianwilliams/Development/daw/build/CMakeFiles --progress-num=4,5 "Built target juce_lv2_helper"
+.PHONY : JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/all
+
+# Build rule for subdir invocation for target.
+JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sebastianwilliams/Development/daw/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sebastianwilliams/Development/daw/build/CMakeFiles 0
+.PHONY : JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/rule
+
+# Convenience name for target.
+juce_lv2_helper: JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/rule
+.PHONY : juce_lv2_helper
+
+# clean rule for target.
+JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/clean:
+	$(MAKE) $(MAKESILENT) -f JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/build.make JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/clean
+.PHONY : JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /Users/sebastianwilliams/Development/daw/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
