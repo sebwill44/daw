@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/sebastianwilliams/Development/daw/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/daw.dir/main.cpp.o -c /Users/sebastianwilliams/Development/daw/main.cpp",
+  "file": "/Users/sebastianwilliams/Development/daw/main.cpp"
+}
+]
